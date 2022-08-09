@@ -130,13 +130,13 @@ img {
     flex-direction: column;
     background-image: url(../img/Path2.svg);
     background-repeat: no-repeat;
-    box-sizing: content;
+    box-sizing: cover;
     background-position: 0 385px;
 }
 
 @media only screen and (max-width: 576px) {
     .main {
-        box-sizing: content;
+        box-sizing: cover;
         background-position: 0 385px;
     }
 }
@@ -478,9 +478,9 @@ img {
     border-radius: 3.93258px;
 }
 
-.section4-div-li:hover {
+/* .section4-div-li:hover {
     box-shadow: 0 0 10px #00b3ff, 0 0 15px #00b3ff, 0 0 30px #00b3ff;
-}
+} */
 
 .section4-div-li:not(:last-child) {
     margin-right: 5%;
